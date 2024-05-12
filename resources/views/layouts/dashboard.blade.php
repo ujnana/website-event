@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ isset($title) ? $title : 'Dashboard' }}</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @livewireStyles
 </head>
 <body>
 <div class="antialiased bg-gray-50 dark:bg-gray-900">
@@ -15,9 +16,11 @@
     <!-- Sidebar -->
     @include('dashboard.partials.sidebar')
     <!-- Content -->
-    <main class="p-4 md:ml-64 max-h-full pt-20">
+    <main class="p-4 md:ml-64 min-h-screen pt-20">
         @yield('content')
     </main>
+    @livewireScripts
+    @livewire('wire-elements-modal')
 </div>
 </body>
 </html>
