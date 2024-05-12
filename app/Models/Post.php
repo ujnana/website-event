@@ -4,11 +4,13 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Spatie\Tags\HasTags;
 
-class posts extends Model
+class Post extends Model
 {
+    use HasTags;
     public function category(): BelongsTo
     {
-        return $this->belongsTo(categories::class, 'category_id');
+        return $this->belongsTo(Categories::class, 'category_id');
     }
 }
