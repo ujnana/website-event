@@ -3,7 +3,6 @@
 namespace App\Livewire\Users;
 
 use App\Models\User;
-use Livewire\Component;
 use LivewireUI\Modal\ModalComponent;
 
 class DeleteUser extends ModalComponent
