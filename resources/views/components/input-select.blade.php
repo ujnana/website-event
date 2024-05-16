@@ -18,7 +18,7 @@
             <option value="" disabled selected>{{ $placeholder }}</option>
         @endif
         @foreach($options as $key => $value)
-            <option value="{{ $value }}" {{ $value == $selected ? 'selected' : '' }}>{{ $value }}</option>
+            <option value="{{ $key }}" {{ $key == $selected ? 'selected' : '' }}>{{ $value }}</option>
         @endforeach
     </select>
     @error($name)

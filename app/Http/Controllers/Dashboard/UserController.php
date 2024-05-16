@@ -18,8 +18,6 @@ class UserController extends Controller
 
     public function create()
     {
-        $title = 'Create User';
-        return view('dashboard.pages.users.create', compact('title'));
     }
 
     public function store(Request $request)
