@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
+use App\Models\Categories;
 use App\Models\Post;
 use Illuminate\Http\Request;
 
@@ -18,7 +19,10 @@ class PostController extends Controller
 
     public function create()
     {
-        return view('dashboard.pages.posts.create');
+        $title = 'Create Article';
+        $categories = Categories::all();
+
+        return view('dashboard.pages.posts.create', compact('title', 'categories'));
     }
 
     public function store(Request $request)
