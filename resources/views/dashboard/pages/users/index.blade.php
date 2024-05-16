@@ -114,7 +114,8 @@
                                         onclick="Livewire.dispatch('openModal', { component: 'users.edit-user', arguments: { user: '{{ $user->id }}' } })">
                                         <x-iconoir-edit-pencil class="text-blue-500" height="1.5rem" width="1.5rem"/>
                                     </button>
-                                    <button>
+                                    <button
+                                        onclick="Livewire.dispatch('openModal', { component: 'users.delete-user', arguments: { user: '{{ $user->id }}' } })">
                                         <x-heroicon-s-trash class="text-red-500" height="1.5rem" width="1.5rem"/>
                                     </button>
                                 </td>
