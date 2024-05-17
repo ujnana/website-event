@@ -20,7 +20,7 @@
                 </div>
 
                 <div>
-                    <x-input-select label="Category" name="category_id" :options="$categories" :selected="$categories"  placeholder="Choose a category" class="mb-3"/>
+                    <x-input-select label="Category" name="category_id" :options="$categories" placeholder="Choose a category" class="mb-3"/>
                 </div>
                 <div>
                     <x-button-primary class="w-full">Save</x-button-primary>

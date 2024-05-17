@@ -1,7 +1,7 @@
 @extends('layouts.dashboard')
 @section('content')
     @include('dashboard.partials.breadcrumb')
-    <section class="bg-gray-50 dark:bg-gray-900">
+    <section class="bg-gray-50 dark:bg-gray-900 px-4 md:px-0">
         <div class="mx-auto max-w-screen-xl">
             <!-- Start coding here -->
             <div class="bg-white dark:bg-gray-800 relative shadow-md sm:rounded-lg overflow-hidden">
@@ -94,9 +94,9 @@
                     <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                         <tr>
-                            <th style="width: 5%" scope="col" class="px-4 py-3"></th>
+                            <th style="width: 10%" scope="col" class="px-4 py-3"></th>
                             <th style="width: 25%" scope="col" class="px-4 py-3">Title</th>
-                            <th style="width: 25%" scope="col" class="px-4 py-3 text-center">Category</th>
+                            <th style="width: 20%" scope="col" class="px-4 py-3 text-center">Category</th>
                             <th style="width: 20%" scope="col" class="px-4 py-3 text-center">Author</th>
                             <th style="width: 15%" scope="col" class="px-4 py-3 text-center">Created At</th>
                             <th style="width: 10%" scope="col" class="px-4 py-3 text-center">Actions</th>

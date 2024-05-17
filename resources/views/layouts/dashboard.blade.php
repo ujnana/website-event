@@ -16,7 +16,7 @@
     <!-- Sidebar -->
     @include('dashboard.partials.sidebar')
     <!-- Content -->
-    <main class="p-4 md:ml-64 min-h-screen pt-20">
+    <main class="p-1 md:p-4 md:ml-64 min-h-screen pt-20 md:pt-20">
         @yield('content')
     </main>
     @livewireScripts

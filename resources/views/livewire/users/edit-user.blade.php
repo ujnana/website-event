@@ -7,7 +7,7 @@
         <form wire:submit="update" id="editUser" class="space-y-3 md:space-y-3">
             <x-input-text wire:model.live="name" value="{{ $user->name }}" name="name" id="name" label="Name" placeholder="Input Name"/>
             <x-input-email wire:model.live="email" value="{{ $user->email }}" name="email" id="email" label="Email" placeholder="Input Email"/>
-            <x-input-select wire:model.live="role" name="role" id="role" label="Role" :options="$roles" :selected="$role" placeholder="Select Role"/>
+            <x-input-select-role wire:model.live="role" name="role" id="role" label="Role" :options="$roles" :selected="$role" placeholder="Select Role"/>
             <x-input-password wire:model.live="user.password" name="password" id="password" label="Password" placeholder="•••••••••" required="false"/>
             <x-input-confirm-password wire:model.live="confirm_password" name="confirm-password" id="confirm-password" label="Confirm Password" placeholder="•••••••••" required="false" />
         </form>

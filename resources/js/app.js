@@ -1,5 +1,6 @@
 import './bootstrap';
 import 'flowbite';
+import { datepicker } from 'flowbite/dist/datepicker.js';
 
 import {ClassicEditor as ClassicEditorBase} from '@ckeditor/ckeditor5-editor-classic';
 import {Essentials} from '@ckeditor/ckeditor5-essentials';

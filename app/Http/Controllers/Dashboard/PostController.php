@@ -68,7 +68,7 @@ class PostController extends Controller
             $thumbnail->move($destinationPath, $thumbnailName);
             $validated['thumbnail'] = $thumbnailName;
 
-            Storage::disk($destinationPath)->delete($post->thumbnail);
+            Storage::delete($destinationPath.$post->thumbnail);
         }
 
         $post->update($validated);

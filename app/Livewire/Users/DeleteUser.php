@@ -14,11 +14,13 @@ class DeleteUser extends ModalComponent
         $this->user = $user;
     }
 
-    public function delete(): void
+    public function delete()
     {
         $this->user->delete();
         $this->closeModal();
         session()->flash('danger', __('User deleted successfully.'));
+
+        return $this->redirect('/dashboard/users');
     }
     public static function modalMaxWidth(): string
     {

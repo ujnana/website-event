@@ -1,7 +1,7 @@
 @extends('layouts.dashboard')
 @section('content')
     @include('dashboard.partials.breadcrumb')
-    <section class="bg-gray-50 dark:bg-gray-900">
+    <section class="bg-gray-50 dark:bg-gray-900 px-4 md:px-0">
         <div class="mx-auto max-w-screen-xl">
             <!-- Start coding here -->
             <div class="bg-white dark:bg-gray-800 relative shadow-md sm:rounded-lg overflow-hidden">
