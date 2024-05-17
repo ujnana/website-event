@@ -8,6 +8,8 @@ class HomePageController extends Controller
 {
     public function index()
     {
-        return view('website.pages.home.index');
+        $articles = \App\Models\Post::take(4)->get();
+
+        return view('website.pages.home.index', compact('articles'));
     }
 }

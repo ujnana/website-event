@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use Spatie\Permission\Models\Role;
 
 
 // Route Website Page
@@ -29,7 +30,7 @@ Route::get('/logout', [App\Http\Controllers\Website\LoginController::class, 'log
 
 // Route Dashboard
 Route::prefix('dashboard')->middleware('auth:web')->group(function () {
-    Route::get('/', [App\Http\Controllers\Dashboard\DashboardController::class, 'index'])->name('dashboard.index')->middleware('role:admin');
+    Route::get('/', [App\Http\Controllers\Dashboard\DashboardController::class, 'index'])->name('dashboard.index')->middleware('isAdmin');
     Route::get('/user', [App\Http\Controllers\Dashboard\DashboardUserController::class, 'index'])->name('dashboard.user');
     Route::resource('post', App\Http\Controllers\Dashboard\PostController::class);
     Route::resource('category', App\Http\Controllers\Dashboard\CategoryController::class);
