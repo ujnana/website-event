@@ -8,7 +8,7 @@ class HomePageController extends Controller
 {
     public function index()
     {
-        $articles = \App\Models\Post::take(4)->get();
+        $articles = \App\Models\Post::take(3)->get();
 
         return view('website.pages.home.index', compact('articles'));
     }

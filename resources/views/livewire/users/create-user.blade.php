@@ -3,13 +3,16 @@
         Add User
     </x-slot>
 
-<x-slot name="content">
+    <x-slot name="content">
         <form wire:submit="save" id="createUser" class="space-y-3 md:space-y-3">
             <x-input-text wire:model.live="name" name="name" id="name" label="Name" placeholder="Input Name"/>
             <x-input-email wire:model.live="email" name="email" id="email" label="Email" placeholder="Input Email"/>
-            <x-input-select-role wire:model.live="role" name="role" id="role" label="Role" :options="$roles" :selected="$role" placeholder="Select Role"/>
-            <x-input-password wire:model.live="password" name="password" id="password" label="Password" placeholder="Password"/>
-            <x-input-confirm-password wire:model.live="confirm_password" name="confirm-password" id="confirm-password" label="Confirm Password" placeholder="Confirm Password" />
+            <x-input-select-role wire:model.live="role" name="role" id="role" label="Role" :options="$roles"
+                                 :selected="$role" placeholder="Select Role"/>
+            <x-input-password wire:model.live="password" name="password" id="password" label="Password"
+                              placeholder="Password"/>
+            <x-input-confirm-password wire:model.live="confirm_password" name="confirm-password" id="confirm-password"
+                                      label="Confirm Password" placeholder="Confirm Password"/>
         </form>
     </x-slot>
 

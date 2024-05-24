@@ -19,4 +19,5 @@ class DashboardController extends Controller
 
         return view('dashboard.index', compact('title', 'userCount', 'articleCount', 'partnershipCount', 'articles'));
     }
+
 }
