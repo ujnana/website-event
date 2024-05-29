@@ -9,7 +9,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link rel="stylesheet" href="{{ asset('build/assets/app-DgjkFXs7.css') }}">
     <link rel="stylesheet" href="{{ asset('build/assets/app-DWWURUsa.css') }}">
-    <script src="{{ asset('build/assets/app-whTaYw9x.js') }}"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
 
@@ -19,5 +19,9 @@
     @yield('content')
 </main>
 @include('website.partials.footer')
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="{{ asset('build/assets/app-whTaYw9x.js') }}"></script>
+
+@stack('script')
 </body>
 </html>
