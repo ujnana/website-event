@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ isset($title) ? $title : 'Website' }}</title>
     {{--@vite(['resources/css/app.css', 'resources/js/app.js'])--}}
+    <link rel="stylesheet" href="{{ asset('build/assets/app-Bl10ydrA.css') }}">
     <link rel="stylesheet" href="{{ asset('build/assets/app-DgjkFXs7.css') }}">
-    <link rel="stylesheet" href="{{ asset('build/assets/app-DWWURUsa.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
