@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ isset($title) ? $title : 'Website' }}</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <link rel="stylesheet" href="{{ asset('build/assets/app-CJACMPol.css') }}">
+    <link rel="stylesheet" href="{{ asset('build/assets/app-DgjkFXs7.css') }}">
 </head>
 <body>
 
@@ -16,29 +18,8 @@
     @yield('content')
 </main>
 @include('website.partials.footer')
-<script>
-    const swiper = new Swiper('.swiper', {
-        // Optional parameters
-        direction: 'vertical',
-        loop: true,
 
-        // If we need pagination
-        pagination: {
-            el: '.swiper-pagination',
-        },
-
-        // Navigation arrows
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-
-        // And if we need scrollbar
-        scrollbar: {
-            el: '.swiper-scrollbar',
-        },
-    });
-</script>
+<script src="{{ asset('build/assets/app-DdYQcrJ8.js') }}"></script>
 
 @stack('script')
 </body>
