@@ -1,4 +1,4 @@
-<header>
+<header class="sticky top-0">
     <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <a href="{{ route('home') }}" class="flex items-center">
@@ -37,7 +37,7 @@
                 <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                     <li>
                         <a href="{{ route('home') }}"
-                           class="block py-2 pr-4 pl-3 {{ request()->routeIs('home') ? 'text-primary-700' : 'text-gray-700' }} rounded bg-primary-700 lg:bg-transparent lg:hover:text-primary-700 lg:p-0 dark:text-white"
+                           class="block py-2 pr-4 pl-3 {{ request()->routeIs('home') ? 'text-primary-700 font-bold' : 'text-gray-700' }} rounded bg-primary-700 lg:bg-transparent lg:hover:text-primary-700 lg:p-0 dark:text-white"
                            aria-current="page">Home</a>
                     </li>
                     <li>
