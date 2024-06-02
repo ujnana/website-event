@@ -2,7 +2,7 @@
 @section('content')
     <div id="default-carousel" class="relative w-full" data-carousel="slide">
         <!-- Carousel wrapper -->
-        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+        <div class="reladbtive h-56 overflow-hidden rounded-lg md:h-96">
             <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <img src="{{ asset('assets/img/hero-1.webp') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
@@ -71,8 +71,8 @@
         <div class="items-center flex px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-6 lg:px-6 "
         >
             <div class="col-span-2 pt-5">
-                <h3 class="text-xl font-bold text-gray-900 dark:text-white">Terbaru di</h3>
-                <h1 class="text-4xl font-bold text-gray-900 dark:text-white">For People Media</h1>
+                <h3 class="text-xl font-bold text-white dark:text-white">Terbaru di</h3>
+                <h1 class="text-4xl font-bold text-white dark:text-white">For People Media</h1>
             </div>
             <div class="col-span-4 grid grid-cols-3 gap-3 px-5">
                 <img src="{{ asset('assets/img/poster.webp') }}" alt="">
