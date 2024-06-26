@@ -20,13 +20,89 @@
                     enough to be simple and quick, but big enough to deliver the scope you want at the pace you need.
                     Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you
                     need.</p>
-                <button type="button"
-                        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-10 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
-                    Selengkapnya
-                </button>
             </div>
-            <div class="grid grid-cols-2 gap-4 mt-8">
 
+        </div>
+    </section>
+    <section class="px-60 py-5">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center">EVENT PARTNER</h2>
+        <div class="grid grid-cols-6 gap-4 mt-8">
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="px-60 py-10">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center">KAMPUS</h2>
+        <div class="grid grid-cols-6 gap-4 mt-8">
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
             </div>
         </div>
     </section>
