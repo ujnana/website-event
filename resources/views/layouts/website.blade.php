@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ isset($title) ? $title : 'Website' }}</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <link rel="stylesheet" href="{{ asset('build/assets/app-CJACMPol.css') }}">
+    <link rel="stylesheet" href="{{ asset('build/assets/app-aauK23pm.css') }}">
     <link rel="stylesheet" href="{{ asset('build/assets/app-DgjkFXs7.css') }}">
 
 </head>
